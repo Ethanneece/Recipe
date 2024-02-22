@@ -27,7 +27,16 @@ body {
     display: flex; 
     flex-direction: column;
     background-color: hsl(330, 100%, 98%);
-    padding: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+ol {
+    padding-left: 15px;
 }
 
 li p {
@@ -62,7 +71,8 @@ li {
 }
 
 ol {
-    color: hsl(30, 10%, 34%);
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
 }
 
 .recipeContainer {
@@ -109,4 +119,9 @@ b {
 .brown {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
+    min-width: 100px;
+}
+
+.tableP {
+    min-width: 100px;
 }
